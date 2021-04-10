@@ -1,0 +1,26 @@
+NVAPT: Not Very Advanced Persistent Threat for iOS. (c) Russ Spooner (rus@portcullis-security.com)
+
+Redistribution of this, or associated files is strictly discouraged.
+
+Very Alpha version, use at your own risk, never for evil. Be warned it will possibly destroy humanity or something equally inconvenient....
+
+Prerequisites:
+
+A Jailbroken device... on to which you should install, I will leave it to your own skill and ingenuity to achieve this:
+
+- openssh (to get the files on the device)
+- recAudio from http://ericasadun.com/ftp/EricaUtilities/EricaUtilitiesBeta-14-fw21.zip
+- sqlite3
+- ncftp
+
+Execution:
+
+Put all the files in "root"'s home directory.
+
+Edit sleeper.sh for it to point at an ftp server of your choice.
+
+run cal.sh for it to execute once (it will scrape all calendar events for the day and set up a sleeper shell for each)
+
+or
+
+Run NVAPT.sh in order to  install it via launchd to run daily.....
